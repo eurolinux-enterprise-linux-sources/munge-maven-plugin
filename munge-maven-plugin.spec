@@ -1,6 +1,6 @@
 Name:           munge-maven-plugin
 Version:        1.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Munge Maven Plugin
 License:        CDDL
 URL:            http://github.com/sonatype/munge-maven-plugin
@@ -54,5 +54,8 @@ This package provides %{summary}.
 %doc LICENSE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-2
+- Mass rebuild 2013-12-27
+
 * Tue Sep 10 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.0-1
 - Initial packaging
